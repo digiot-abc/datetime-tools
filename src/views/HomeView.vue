@@ -9,8 +9,8 @@
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from 'vue';
 import DateTimeConverter from "@/domains/datetime/dateTimeConverter";
-import UnixToDateForm from "@/domains/datetime/UnixToDateForm.vue";
-import DateToUnixForm from "@/domains/datetime/DateToUnixForm.vue";
+import UnixToDateForm from "@/domains/datetime/DateToUnixForm.vue";
+import DateToUnixForm from "@/domains/datetime/UnixToDateForm.vue";
 
 // 初期値を設定する関数
 function setInitialValues() {
