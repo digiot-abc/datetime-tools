@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vite preview",
-    "build": "NODE_ENV=production vite build",
+    "build": "vite build",
     "lint": "vue-cli-service lint",
     "dev": "vite"
   },
