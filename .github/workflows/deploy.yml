@@ -29,3 +29,4 @@ jobs:
         with:
           branch: gh-pages # GitHub Pagesで展開するためのブランチ
           folder: dist # Vueプロジェクトのビルド出力フォルダ
+          token: ${{ secrets.ACCESS_REPO }} # PATを使用
