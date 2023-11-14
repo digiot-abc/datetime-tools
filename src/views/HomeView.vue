@@ -1,9 +1,13 @@
 <template>
-  <v-card  flat="" class="pa-5" align="right">
+  <v-card flat class="pa-5" align="right">
     {{ now }} <br/>UNIX Time: {{now.getTime()}}
   </v-card>
-  <unix-to-date-form/>
-  <date-to-unix-form/>
+  <v-card flat align="center">
+    <v-card flat max-width="1200">
+      <unix-to-date-form align="left"/>
+      <date-to-unix-form align="left"/>
+    </v-card>
+  </v-card>
 </template>
 
 <script setup lang="ts">

@@ -1,7 +1,7 @@
 <template>
   <v-card flat class="pa-5">
     <v-card-title>Date → UNIX Time</v-card-title>
-    <v-card-subtitle>Enter the date and time to convert to UNIX timestamp:</v-card-subtitle>
+    <v-card-subtitle>Enter the date and time to convert to UNIX timestamp</v-card-subtitle>
 
     <v-card-actions>
       <v-text-field label="Date" type="date" v-model="inputDate"></v-text-field>
