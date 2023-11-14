@@ -10,12 +10,6 @@
     </v-main>
     <v-footer app>
       <v-row class="ma-0">
-<!--        <v-col cols="12">-->
-
-<!--          <v-card color="grey" height="300" width="100%">-->
-<!--            <v-card-title>お問い合わせ・要望</v-card-title>-->
-<!--          </v-card>-->
-<!--        </v-col>-->
 
         <v-col cols="12" class="pa-0 ma-0">
           <v-card align="center" elevation="0" width="100%">
